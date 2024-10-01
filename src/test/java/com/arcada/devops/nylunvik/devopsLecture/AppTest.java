@@ -25,7 +25,7 @@ public class AppTest
 	@Test
 	public void testCreateServer()
 	{
-		System.out.println("Vi körde några tests!");
+		System.out.println("V har testat om de funkar!");
 		assertTrue(app.createServer());
 	}
 

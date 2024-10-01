@@ -15,7 +15,8 @@ public final class App
     {
     	App app = new App();
     	app.createServer();
-    }
+    }//main closes
+    
     public boolean createServer()
     {
     	try
@@ -25,6 +26,7 @@ public final class App
             server.setExecutor(null); // creates a default executor
             server.start();
             System.out.println("Hello. Your server has started. It is running on this port: http://localhost:8008/");
+                        
             return true;
     	}
     	catch(final IOException exception)
@@ -32,7 +34,7 @@ public final class App
     		exception.printStackTrace();
     		return false;
     	}
-    }//main closes
+    }
     
     private static final class DemoHandler implements HttpHandler 
     {
