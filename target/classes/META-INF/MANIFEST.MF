@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: nylunvik
-Build-Jdk: 23
+Build-Jdk: 22.0.2
 Class-Path: lib/junit-4.9.jar lib/hamcrest-core-1.1.jar
 Main-Class: com.arcada.devops.nylunvik.devopsLecture.App
 Created-By: Maven Integration for Eclipse
